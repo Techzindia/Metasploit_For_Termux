@@ -25,10 +25,6 @@ gem install bundler
 echo "nokogiri is installing......"
 gem install nokogiri -- --use-system-libraries
 
-#Install Network-Interface
-
-gem install network_interface
-
 #Install gems
 gem unpack grpc -v 1.4.1
 cd grpc-1.4.1
